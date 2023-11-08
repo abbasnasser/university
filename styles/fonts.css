@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "IngridDarling";
+  font-style: NORMAL_OR_ITALIC;
+  font-weight: NUMERIC_WEIGHT_VALUE;
+  src: url("../assets/fonts/IngridDarling-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "kiteone";
+  font-style: NORMAL_OR_ITALIC;
+  font-weight: NUMERIC_WEIGHT_VALUE;
+  src: url("../assets/fonts/KiteOne-Regular.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Inconsolata";
+  font-style: NORMAL_OR_ITALIC;
+  font-weight: NUMERIC_WEIGHT_VALUE;
+  src: url("../assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf")
+    format("woff2");
+}

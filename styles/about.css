@@ -1,0 +1,103 @@
+@import "../styles/fonts.css";
+
+.sub-menu {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: start;
+  margin-left: -40px;
+  margin-top: 0px;
+  color: #e11cce;
+  font-family: IngridDarling;
+  font-size: 45px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+ol {
+  color: black;
+  font-family: Inconsolata;
+  font-size: 23px;
+}
+table {
+  width: 50%;
+  border-spacing: 50px;
+}
+
+h1,
+h2 {
+  font-family: Inconsolata;
+  font-weight: 400;
+  font-size: 45px;
+  margin-bottom: -10px;
+}
+.subnav {
+  color: #e11cce;
+}
+p {
+  font-size: 23px;
+  font-family: Inconsolata;
+}
+
+.images-body-right {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: end;
+}
+
+.linner {
+  width: 40%;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images-body-left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.description {
+  width: 80%;
+  font-family: kiteone;
+  background-color: transparent;
+}
+
+.ourStory_title {
+  width: 80%;
+  background-color: transparent;
+
+  text-align: start;
+}
+.image_p {
+  width: 20%;
+  min-width: 250px;
+}
+
+@media only screen and (max-width: 1550px) {
+  table {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  table {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .image_p {
+    filter: blur(1px);
+  }
+}
+@media only screen and (min-width: 701px) {
+}

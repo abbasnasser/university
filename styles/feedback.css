@@ -1,0 +1,58 @@
+@import "../styles/fonts.css";
+body {
+}
+
+.container {
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+textarea {
+  width: 400px;
+  height: 400px;
+  border-style: none;
+  resize: none;
+  max-width: 400px;
+  outline: none;
+  font-size: 20px;
+}
+
+.title {
+  padding-right: 20px;
+  width: 100%;
+  font-family: IngridDarling;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #e11cce solid 1px;
+}
+
+input {
+  font-family: IngridDarling;
+  font-size: 30px;
+  width: 100%;
+  border-style: none;
+  outline: none;
+}
+
+.submit {
+  background-color: #e11cce;
+  color: white;
+  border-radius: 10px;
+}
+p {
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}

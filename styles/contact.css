@@ -1,0 +1,23 @@
+@import "../styles/fonts.css";
+h4,
+p {
+  font-family: IngridDarling;
+  font-size: 40px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.container {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link_style {
+  color: #e11cce;
+}
+
+td {
+  line-height: 0px;
+}

@@ -1,0 +1,88 @@
+@import "../styles/fonts.css";
+
+body {
+  margin: 0px;
+  user-select: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+header {
+  width: 100%;
+  background-color: #e11cce;
+  display: flex;
+  flex-direction: row;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  user-select: none;
+  font-family: IngridDarling;
+  font-size: 37px;
+}
+a:hover {
+  color: rgb(224, 209, 126);
+}
+.logo {
+  display: flex;
+  height: 80px;
+  width: 43%;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.caker-logo-text {
+  color: white;
+  font-family: IngridDarling;
+  font-size: 32px;
+}
+nav {
+  width: 50%;
+  padding-right: 5%;
+}
+.menu-button {
+  background-color: transparent;
+  border-color: transparent;
+  display: none;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 20px;
+}
+
+.feedbackButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e11cce;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 885px) {
+  .menu-button {
+    display: block;
+  }
+  ul {
+    display: none;
+  }
+}
+@media only screen and (min-width: 701px) {
+}
